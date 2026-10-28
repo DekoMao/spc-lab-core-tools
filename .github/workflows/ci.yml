@@ -10,6 +10,11 @@ on:
 permissions:
   contents: read
 
+# Cancela apenas a execução anterior deste workflow na mesma referência.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -31,3 +36,4 @@ jobs:
         run: npm run check
       - name: Validar cálculos estatísticos
         run: npm test
+
