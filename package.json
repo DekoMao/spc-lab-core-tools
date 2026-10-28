@@ -1,0 +1,16 @@
+{
+  "name": "spc-lab-core-tools",
+  "version": "1.0.0",
+  "description": "Laboratório interativo de controle estatístico de processo com cartas I–MR e X̄–R, análise de capacidade e exercícios industriais.",
+  "private": true,
+  "type": "module",
+  "author": "Wanderley Uchôa (DekoMao)",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/engine.js && node --check scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": ["spc", "cep", "core-tools", "quality-engineering", "control-charts", "process-capability", "industrial-training"]
+}

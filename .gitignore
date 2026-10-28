@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.openai/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+tmp/
+spc-lab-backup*.json
+spc-lab-medicoes*.csv
+spc-lab-relatorio*.md
