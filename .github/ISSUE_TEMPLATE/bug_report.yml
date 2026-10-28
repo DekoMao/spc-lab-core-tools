@@ -1,0 +1,22 @@
+name: Relatar defeito
+description: Descreva um problema reproduzível sem dados sensíveis.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Como reproduzir
+      description: Informe commit, ambiente, passos mínimos e dados sintéticos.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado e observado
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidência e impacto
+      description: Inclua logs sanitizados, frequência e impacto. Nunca publique tokens ou dados pessoais.

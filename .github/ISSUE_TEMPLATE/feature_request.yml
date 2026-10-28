@@ -1,0 +1,20 @@
+name: Propor melhoria
+description: Defina problema, benefício e critérios de aceite.
+title: "[Melhoria]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema e público afetado
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Solução e critérios de aceite verificáveis
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas, riscos e itens fora do escopo
