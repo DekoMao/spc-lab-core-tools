@@ -6,6 +6,11 @@ Projeto de **Wanderley Uchôa · DekoMao**, conectando Engenharia da Qualidade, 
 
 [Guia de uso](docs/GUIA_DE_USO.md) · [Métodos estatísticos](docs/METODOS.md) · [Validação](docs/VALIDACAO.md) · [Como contribuir](CONTRIBUTING.md)
 
+![Visão geral do SPC Lab com indicadores, carta X̄–R e interpretação do processo](docs/images/01-visao-geral.jpg)
+
+*Demonstração com dados sintéticos. Veja as demais [telas do simulador](#telas-do-simulador).*
+
+
 ## O problema que o projeto ajuda a resolver
 
 Um Cpk alto, isoladamente, não demonstra que um processo é previsível. Uma peça dentro da tolerância também não garante que o processo esteja estável.
@@ -23,6 +28,55 @@ O SPC Lab transforma essa distinção em uma experiência prática: inserir medi
 | Entrada de dados | Colagem, CSV/TXT, cenários sintéticos e restauração de backup JSON. |
 | Aprendizagem | Seis exercícios com dicas, correção e feedback ligado ao chão de fábrica. |
 | Exportação | CSV, relatório Markdown e backup de dados, configurações e progresso. |
+
+## Telas do simulador
+
+As capturas mostram a interface real em desktop com bases sintéticas de treinamento. Clique nas seções para expandir cada tela.
+
+<details>
+<summary><strong>Dados & coleta</strong> — configuração da carta, especificação e entrada das medições</summary>
+
+![Tela Dados e coleta com configuração da análise, limites de especificação e editor de medições](docs/images/02-dados-e-coleta.jpg)
+
+A tela reúne os parâmetros da análise, a seleção de regras e a entrada por colagem ou arquivo CSV/TXT.
+
+</details>
+
+<details>
+<summary><strong>Capacidade</strong> — Cp, Cpk, Pp, Ppk e premissas de interpretação</summary>
+
+![Tela de capacidade com histograma, índices Cp Cpk Pp Ppk e checklist de premissas](docs/images/03-capacidade.jpg)
+
+Os estimadores de variação dentro e global são apresentados separadamente. As premissas continuam sendo verificações técnicas do usuário.
+
+</details>
+
+<details>
+<summary><strong>Exercícios práticos</strong> — cálculo e feedback didático</summary>
+
+![Exercício de cálculo do Cpk com resposta numérica e explicação do resultado](docs/images/04-exercicios.jpg)
+
+O exemplo demonstra a correção de uma questão numérica e a conexão do resultado com a centralização do processo.
+
+</details>
+
+<details>
+<summary><strong>Guia de decisão</strong> — coleta, controle e aplicação industrial</summary>
+
+![Guia de decisão do SPC Lab com orientações para escolher a carta e entender o comportamento do processo](docs/images/05-guia-de-decisao.jpg)
+
+O guia documenta os métodos, as limitações e a reação a sinais, com referências para aprofundamento.
+
+</details>
+
+<details>
+<summary><strong>Sinais especiais</strong> — mudança de patamar após o setup</summary>
+
+![Cenário Mudança após o setup com Cpk 3,24, sinais especiais e orientação para investigar a causa](docs/images/06-sinais-especiais.jpg)
+
+Mesmo com Cpk alto, o cenário apresenta sinais temporais. Os índices são exploratórios enquanto o comportamento exigir investigação.
+
+</details>
 
 ## Começar em três passos
 
